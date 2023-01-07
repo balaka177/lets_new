@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>2nd</title>
+
+    </head>
+    <body>
+        <lable for="fn" id="fn">First name</lable><br>
+        <input type="text" name="fn"><br>
+        <lable for ="ln" id="ln">Last name</lable><br>
+        <input type="text" name="ln"><br>
+        <input type="submit" value="Submit" class="dl">
+
+        <script>
+            const cl=document.getElementById("fn");
+            cl.addEventListener("mouseout",(e)=>{
+                cl.style.color="red";
+            })
+        </script>
+
+    </body>
+</html>
